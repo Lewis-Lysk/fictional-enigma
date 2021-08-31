@@ -1,0 +1,11 @@
+         (pycharm)  
+         This is just a simple random 2 number generator
+import random
+dice1 = [1, 2, 3, 4, 5, 6]
+num1 = random.choice(dice1)
+dice2 = [1, 2, 3, 4, 5, 6]
+num2 = random.choice(dice2)
+print(f'({num1},{num2})')
+
+-------------------------------------------------------------------------------
+
